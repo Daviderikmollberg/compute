@@ -23,8 +23,8 @@
   ssh user@terra.hir.is
   #+end_src
 
-  Any questions additional questions can be asked on the =#terra= channel on
-  [[https://romur.slack.com][Slack]].
+  Any questions additional questions can be asked on the =#compute= channel on
+  Teams.
 
 * Scheduler
   The LVL cluster uses [[https://slurm.schedmd.org][Slurm]] to handle compute job scheduling and resource
@@ -84,7 +84,7 @@
 
   | Path         | Purpose                                          |
   |--------------+--------------------------------------------------|
-  | /data        | Datasets and data used by and created by LVL |
+  | /data        | Datasets and data used by and created by LVL, categorized into to ASR, TTS or textual data |
   | /models      | Pretrained models from LVL or other sources      |
   | /data/tools  | Shared tools and libraries                       |
 
@@ -110,6 +110,11 @@
   base environment. The /Conda/ tab allows you to create new environments, and
   new packages can be added to enviroments through the UI or in a notebook using
   a specific environment.
+
+* Vscode
+  Vscode is amongst the most used IDE's for developers. By installing the extention
+  =SSH - Remote= from Microsoft you can connect to Terra and interface with it like
+  you would with local folders and scripts. 
 
 * Installing software
   An easy way for a user to install necessary tools and libraries, other than
